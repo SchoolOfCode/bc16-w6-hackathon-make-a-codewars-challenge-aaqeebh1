@@ -10,6 +10,7 @@ lisofFighters = [{ name: "Ash Ketchum", powerLevel: 55 },
 { name: "Izuku Midoriya", powerLevel: 62 },
 { name: "Monkey D. Luffy", powerLevel: 78 }] note: this is not the list that is going to be provided!
 
+expected output is [{ name: "Monkey D. Luffy", powerLevel: 78 }, { name: "Izuku Midoriya", powerLevel: 62 },{ name: "Ash Ketchum", powerLevel: 55 }]
 
 */
 

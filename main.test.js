@@ -1,7 +1,6 @@
 import { test, expect } from "vitest";
 import { findTheStrongestFighter } from "./main.js";
 
-
 const listOfFighters = [
 	{ name: "Goku", powerLevel: 97 },
 	{ name: "Edward Elric", powerLevel: 82 },
@@ -24,12 +23,11 @@ const listOfFighters = [
 	{ name: "Satoru Gojo", powerLevel: 88 },
 ];
 
-
 test("find The Strongest Fighter", () => {
 	const expected = [
 		{ name: "Goku", powerLevel: 97 },
 		{ name: "Vegeta", powerLevel: 90 },
-		{ name: "Satoru Gojo", powerLevel: 88 }
+		{ name: "Satoru Gojo", powerLevel: 88 },
 	];
 	expect(findTheStrongestFighter(listOfFighters)).toStrictEqual(expected);
 });
